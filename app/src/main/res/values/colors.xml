@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28293b</color>
+    <color name="colorPrimaryDark">#28293b</color>
+    <color name="colorAccent">#28293b</color>
+    <color name="background_material_dark">#ffffff</color>
+    <color name="colorForeground">#FFFFFF</color>
+    <color name="graphview">#000000</color>
+    <color name="fragment">#5b97a6</color>
+</resources>

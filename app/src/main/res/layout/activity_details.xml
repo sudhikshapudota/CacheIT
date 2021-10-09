@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="casual"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/cc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:fontFamily="casual"
+        android:hint="Enter last four digits of credit card" />
+
+    <EditText
+        android:id="@+id/cc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/next"
+        android:fontFamily="casual"
+        android:hint="@string/credit_card_number"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/cc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cc2"
+        android:fontFamily="casual"
+        android:hint="@string/credit_card_number"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/cc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cc3"
+        android:fontFamily="casual"
+        android:hint="@string/credit_card_number"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cc1"
+        android:fontFamily="casual"
+        android:text="@string/plus"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cc4"
+        android:fontFamily="casual"
+        android:text="@string/submit" />
+
+</RelativeLayout>

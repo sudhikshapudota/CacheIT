@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#28293b</item>
+        <item name="colorPrimaryDark">#28293b</item>
+        <item name="colorAccent">#28293b</item>
+        <item name="android:background">#28293b</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:editTextColor">#FFFFFF</item>
+        <item name="android:colorButtonNormal">#000000</item>
+        <item name="android:colorBackground">#28293b</item>
+        <item name="android:tabStripEnabled">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--34364D-->
+
+    <style name="MainActivity" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#28293b</item>
+        <item name="colorPrimaryDark">#28293b</item>
+        <item name="colorAccent">#28293b</item>
+        <item name="android:background">#28293b</item>
+        <item name="android:textColor">#28293b</item>
+        <item name="android:editTextColor">#28293b</item>
+        <item name="android:colorButtonNormal">#28293b</item>
+        <item name="android:colorBackground">#28293b</item>
+    </style>
+
+<!--
+    28293b
+-->
+
+    <style name="Tabs" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#18d1ff</item>
+        <item name="colorPrimaryDark">#18d1ff</item>
+        <item name="colorAccent">#18d1ff</item>
+        <item name="android:background">#18d1ff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:editTextColor">#FFFFFF</item>
+        <item name="android:colorButtonNormal">#FFFFFF</item>
+        <item name="android:colorBackground">#18d1ff</item>
+    </style> <!--6ab0c1-->
+
+    <style name="tabsandcards" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#18d1ff</item>
+        <item name="colorPrimaryDark">#18d1ff</item>
+        <item name="colorAccent">#18d1ff</item>
+        <item name="android:background">#18d1ff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:editTextColor">#000000</item>
+        <item name="android:colorButtonNormal">#000000</item>
+        <item name="android:colorBackground">#18d1ff</item>
+        <item name="android:fillColor">#18d1ff</item>
+    </style> <!--5b97a6--> <!--Light - 18d1ff-->
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CacheIT" parent="Theme.AppCompat.NoActionBar" />
+
+</resources>

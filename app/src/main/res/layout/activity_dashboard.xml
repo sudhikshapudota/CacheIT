@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <RelativeLayout
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE ONE OF THE BELOW"/>
+-->
+        <Button
+            android:id="@+id/recent_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RECENT EXPENDITURES"
+            />
+
+        <Button
+            android:id="@+id/category_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATEGORIES OF EXPENDITURES"
+            android:layout_below="@id/recent_exp"/>
+
+        <Button
+            android:id="@+id/add_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category_exp"
+            android:text="ADD EXPENDITURE" />
+
+        <Button
+            android:id="@+id/card_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXPENDITURES BY CARD"
+            android:layout_below="@id/add_exp"/>
+
+        <!--<Button
+            android:id="@+id/add_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD CARD"/>-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

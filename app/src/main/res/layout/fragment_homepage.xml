@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Tabs"
+    tools:context=".Homepage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:text="HOME"
+            android:textSize="30sp" />
+-->
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:text="Amount"
+                    />
+
+                <EditText
+                    android:id="@+id/enteramount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:hint="Enter the amount"
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/lastrow"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:text="Card number" />
+
+                <EditText
+                    android:id="@+id/entercard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:hint="Enter the last four digits of the card"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/placetxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:text="Place" />
+
+                <EditText
+                    android:id="@+id/edtPlace"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:hint="Enter the transaction Place"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expenditure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding10dp"
+                android:text="Expenditure type: " />
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expenditure"
+                android:layout_marginTop="@dimen/padding10dp">
+
+                <RadioButton
+                    android:id="@+id/departmentstores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_margin="5dp"
+                    android:text="Department Stores"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RadioButton
+                    android:id="@+id/utilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_margin="5dp"
+                    android:text="Utilities and Bills"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RadioButton
+                    android:id="@+id/fuel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_margin="5dp"
+                    android:text="Fuel"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RadioButton
+                    android:id="@+id/education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_margin="5dp"
+                    android:text="Education"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RadioButton
+                    android:id="@+id/leisure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_margin="5dp"
+                    android:text="Leisure and Entertainment"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_margin="5dp"
+                    android:text="Others"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:buttonTint="@color/colorPrimary"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/submit"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nav_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="@dimen/padding10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="@string/ViewDetails"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+</RelativeLayout>

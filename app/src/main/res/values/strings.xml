@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">cacheit</string>
+    <string name="name">Enter your name</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="credit_card_number">Enter the last four digits of the credit card number</string>
+    <string name="plus">+</string>
+    <string name="submit">Submit</string>
+    <string name="notification_format">Rs.  spent on  /  /   using card ending with   </string>
+    <string name="error_name">Enter the name</string>
+    <string name="error_card">Enter the card</string>
+    <string name="space">            </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ViewDetails">View Details</string>
+    <string name="title_details">DETAILS SIGN UP</string>
+    <string name="enter_card">Enter the last four digits of your account number</string>
+    <string name="enter_name">Please enter the name of the bank</string>
+</resources>

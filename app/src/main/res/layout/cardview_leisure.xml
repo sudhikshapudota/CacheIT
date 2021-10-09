@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <!-- <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <TableRow>
+
+             <TextView
+                 android:id="@+id/amount_entry"
+                 android:text="Amount"/>
+
+             <EditText />
+
+         </TableRow>
+
+         <TableRow>
+
+             <TextView
+                 android:id="@+id/card_entry"
+                 android:text="Card"/>
+
+             <EditText />
+
+         </TableRow>
+
+     </TableLayout>-->
+
+</LinearLayout>
